@@ -1,0 +1,182 @@
+#header {
+    background: url(../images/moviespic.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+} 
+
+.belowNav{
+    background-color: #d3d0c3;
+}
+
+.col-md-12{
+    padding-right: 0px;
+}
+
+#inputMovie, #searchButton {
+    margin-right: 15px;
+}
+
+.buttonBox {
+    /* background-color: blueviolet;*/
+    /* margin-top:160px; */
+    padding-top:45px;
+    font-weight: bold;
+    text-align: center;
+    overflow-y: scroll;
+    background-color: #cfcdc4;
+} 
+
+.youtubeBox {
+    /* background-color: rgb(224, 160, 62); */
+    /* opacity: 0.9; */
+    /* margin-top:160px;  */
+    padding-top:10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #d3d0c3;
+    /* overflow-y: scroll;
+    height:500px; */
+    
+}
+
+.movieInfo {
+    text-align: left;
+    padding-left:37px;
+    padding-right: 15px;
+    
+}
+
+.topNews {
+    height: 1000px;
+    overflow-y: scroll;
+    padding-right:33px;
+    background-color: #d2d1cd;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    
+}
+
+.nowPlayingButton {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.newsDivTitle {
+    font-size: 12px;
+}
+
+.newsDate{
+    margin-top:20px;
+    font-size: 10px;
+}
+
+.newsDivContent {
+    margin-top:5px;
+    font-size: 12px;
+}
+
+
+.newsImage{
+    width:280px;
+    height:200px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.nowPlayingButton:hover {
+    background-color: #dacfa2;
+    color: #1e95da;
+    font-display: auto;
+    font-weight: bolder;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: auto;
+    padding-bottom: -30px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e4dfb4, 0 0 30px #dbd5b9, 0 0 40px #cfce98, 0 0 55px #cccb81, 0 0 75px #cfc886;
+} 
+/*------------------Nirossan--------------*/
+#footer {
+    /*background-color: #c9c3ad;*/
+
+        text-align: center;
+        background-image: url("../imagesniro/");
+        background-repeat: no-repeat;
+       background-size: cover;
+    
+
+}
+
+#nowPlaying {
+    margin-left:10px;
+    /* font-size: 1.5vw; */
+    /* margin-top:122px; */
+}
+
+#name {
+    font-size: 10vw;
+    color: #ffffff;
+    font-display: auto;
+    font-weight: bolder;
+    font-family: 'Neon', Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+}
+
+#footer {
+    text-align: center;
+}
+
+#youtube {
+    width:55vw;
+    height:30vw;
+}
+
+.info{
+    font-weight: normal;
+}
+
+.doubleClick {
+    text-align: center;
+}
+
+@media only screen and (max-width:640px) {
+    /* Youtube Box For mobile phones: */
+     #youtube {
+        width:90vw;
+        height:52vw;
+    } 
+    .movieInfo {
+        text-align: left;
+        padding-left:25px;
+        padding-right: 10px;
+    }
+    .topNews {
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+    /* Youtube Box For mobile phones: */
+     #youtube {
+        width:100vw;
+        height:70vw;
+    } 
+    .movieInfo {
+        text-align: left;
+        padding-left:25px;
+        padding-right: 10px;
+    }
+    .topNews {
+        margin-left: 10px;
+    }
+
+}
